@@ -2,7 +2,7 @@
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(100)
+        Citizen.Wait(30000)
         local hunger = 0
         local thirst = 0
         TriggerEvent('esx_status:getStatus', 'hunger', function(status)
