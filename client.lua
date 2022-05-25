@@ -20,8 +20,3 @@ Citizen.CreateThread(function()
         })
     end
 end)
-
-RegisterCommand('armor', function (_, args)
-    local ped = PlayerPedId()
-    SetPedArmour(ped, tonumber(args[1]))
-end)
