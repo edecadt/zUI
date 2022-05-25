@@ -1,0 +1,82 @@
+.hud-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 15px;
+    left: 17%;
+    top: 87%;
+}
+
+.hunger-container {
+    width: 100%;
+    margin: 5px 0;
+
+    transform: skew(-20deg);
+
+    background: #252525;
+    border-radius: 3px;
+}
+
+.hunger-bar {
+    height: 11px;
+    margin: 3px;
+    
+    background: #00FE93;
+    border-radius: 1.5px;
+}
+
+.thirst-container {
+    width: 100%;
+    margin: 5px 0;
+
+    transform: skew(-20deg);
+
+    background: #252525;
+    border-radius: 3px;
+}
+
+.thirst-bar {
+    height: 11px;
+    margin: 3px;
+
+    background: #1BE0ED;
+    border-radius: 1.5px;
+}
+
+.health-container {
+    width: 100%;
+    margin: 5px 0;
+
+    transform: skew(-20deg);
+
+    background: #252525;
+    border-radius: 3px;
+}
+
+.health-bar {
+    height: 11px;
+    margin: 3px;
+    
+    background: #F6303C;
+    border-radius: 1.5px;
+}
+
+.shield-container {
+    width: 100%;
+    margin: 5px 0;
+
+    transform: skew(-20deg);
+
+    background: #252525;
+    border-radius: 3px;
+}
+
+.shield-bar {
+    height: 11px;
+    margin: 3px;
+
+    background: #9136D9;
+    border-radius: 1.5px;
+}
+
