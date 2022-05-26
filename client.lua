@@ -18,5 +18,5 @@ Citizen.CreateThread(function()
             thirst = thirst
         })
     end
-    Citizen.Wait(10000)
+    Citizen.Wait(1500)
 end)
