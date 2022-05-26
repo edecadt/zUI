@@ -1,5 +1,3 @@
-
-
 Citizen.CreateThread(function()
     while true do
         local hunger = 0
