@@ -1,12 +1,11 @@
 .hud-container {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 200px;
     height: 15px;
-    left: 19%;
-    top: 96%;
+    margin-top: 55%;
+    margin-left: 16%;
 }
 
 .hunger-container {
@@ -80,4 +79,3 @@
     background: #9136D9;
     border-radius: 1.5px;
 }
-
