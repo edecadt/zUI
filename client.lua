@@ -1,3 +1,4 @@
+
 Citizen.CreateThread(function()
     while true do
         local hunger = 0
@@ -15,6 +16,7 @@ Citizen.CreateThread(function()
             hunger = hunger,
             thirst = thirst
         })
+        Citizen.Wait(1000)
     end
-    Citizen.Wait(1500)
 end)
+

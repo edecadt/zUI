@@ -2,10 +2,11 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     width: 200px;
     height: 15px;
-    left: 17%;
-    top: 87%;
+    left: 19%;
+    top: 96%;
 }
 
 .hunger-container {
